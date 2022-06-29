@@ -21,3 +21,7 @@ print(text_match("abc"))
 print(text_match("a"))
 print(text_match("ab"))
 print(text_match("abb"))
+print(text_match("baa"))
+# Write a Python program that matches a string that has an a followed by one or more b's.
+def match_string(text):
+    match = 'b'
